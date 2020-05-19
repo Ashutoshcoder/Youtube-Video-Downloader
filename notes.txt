@@ -1,0 +1,25 @@
+QApplication stands for our application
+QMainWindow - stands for an application
+Each tab in an application helps us in opening a Window
+Example : A preference tab is an Window
+
+The resource file which is photo.qrc needs to be converted into Python file before it is used as a part of Application
+Command : pyrcc5 -o photo_rc.py <<resource file name>>
+Converting our resource file to python file
+
+Load our UI using loadUiType
+, _ is used with ui so that __ is initialised
+
+The main function is used to call the main method which uses QApplication as it's part.
+
+Now the buttons method will be called in the constructor to have the listeners attached to the Button
+Then we will have different methods for :
+1. Downloading
+2. Showing Progress
+3. Handling Browsing
+4. Handling Buttons
+
+
+Themes can be added using Designer and PyQt5 module using CSS
+
+
